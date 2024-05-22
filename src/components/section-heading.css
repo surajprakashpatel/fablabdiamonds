@@ -1,0 +1,19 @@
+.section-heading-section-heading {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.section-heading-text {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.section-heading-text1 {
+  color: var(--dl-color-gray-black60);
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  line-height: 24px;
+}
+
