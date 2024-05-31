@@ -1,6 +1,19 @@
 
 import ItemCard from "../components/item-card"
-import image5 from "../images/ring5.webp"
+import ring1 from "../images/rings/ring11.jpg"
+import ring2 from "../images/rings/ring12.jpg"
+import ring3 from "../images/rings/ring13.jpg"
+import ring4 from "../images/rings/ring14.jpg"
+import ring5 from "../images/rings/ring15.jpg"
+import ring6 from "../images/rings/ring16.jpg"
+import ring7 from "../images/rings/ring17.jpg"
+import ring8 from "../images/rings/ring18.jpg"
+import ring9 from "../images/rings/ring19.jpg"
+import ring10 from "../images/rings/ring20.jpg"
+import ring11 from "../images/rings/ring21.jpg"
+import ring12 from "../images/rings/ring22.jpg"
+import ring13 from "../images/rings/ring24.jpg"
+import ring20 from "../images/rings/ring20.jpg"
   
   const Rings = () => {
  
@@ -13,48 +26,48 @@ import image5 from "../images/ring5.webp"
       <div className="home-cards-container">
       
       <ItemCard
-            name="Earring"
+            name="Dual Tone Glance Pave Ring With 3 Carat Oval Solitare"
             value="3"
-            imageSrc={image5}
+            imageSrc={ring13}
           ></ItemCard>
               
                 
               <ItemCard
-            name="Amazing Earring "
+            name="Alegria Twisted Band With a Round Solitare"
             value="3"
-            imageSrc={image5}
+            imageSrc={ring2}
           ></ItemCard>
               
                        
                  
               <ItemCard
-            name="Earring"
+            name="Amalia Round Brilliant Solitare Pave Ring"
             value="3"
-            imageSrc={image5}
+            imageSrc={ring20}
           ></ItemCard>
                  
                  <ItemCard
-            name="Earring"
+            name="Chandele Double Studbbed Halo Ring"
             value="3"
-            imageSrc={image5}
+            imageSrc={ring4}
           ></ItemCard>
                    
                  
                    <ItemCard
-            name="Earring"
+            name="Frech Bar Embellished With a Marquise Solitare"
             value="3"
-            imageSrc={image5}
+            imageSrc={ring5}
           ></ItemCard>
                              
       <ItemCard
-            name="Earring"
+            name="French Bar Embellished With Cushion Solitare"
             value="3"
-            imageSrc={image5}
+            imageSrc={ring6}
           ></ItemCard>           
           <ItemCard
-                name="Earring"
+                name="Amalia Marquise Solitare Best Pave Ring"
                 value="3"
-                imageSrc={image5}
+                imageSrc={ring7}
               ></ItemCard>
           
      

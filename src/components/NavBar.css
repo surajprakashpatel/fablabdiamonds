@@ -59,7 +59,6 @@
   }
   .home-left {
     display: flex;
-    grid-gap: 45px;
     position: relative;
     align-items: flex-start;
   }

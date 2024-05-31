@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./Shop.css";
 import CategoryCard from "./category-card";
 import SectionHeading from './section-heading';
-import image1 from "../images/ring1.webp"
-import image2 from "../images/ring2.webp"
-import image3 from "../images/ring8.webp"
-import image4 from "../images/ring4.webp"
-import image5 from "../images/ring5.webp"
+import image1 from "../images/rings/ring1.webp"
+import image2 from "../images/rings/ring2.webp"
+import image3 from "../images/rings/ring8.webp"
+import image4 from "../images/rings/ring4.webp"
+import image5 from "../images/rings/ring5.webp"
 
 
 const Shop = () => {
