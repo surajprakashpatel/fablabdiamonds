@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 import "./NavBarSubCat.css";
-import icon from "../images/menu_icon.svg"
-import { NavLink,Switch} from "react-router-dom";
+import icon from "../images/menu_icon.svg";
+import { NavLink, Switch } from "react-router-dom";
 import Shop from "./Shop";
-import {faXmark, faBars} from "@fortawesome/free-solid-svg-icons";
-
+import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBarSubCat = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-
     <nav>
-      <div
+      <FontAwesomeIcon
         className="menu"
         icon={menuOpen ? faXmark : faBars}
         onClick={() => {
@@ -50,7 +49,6 @@ const NavBarSubCat = () => {
         </li>
       </ul>
     </nav>
-   
   );
 };
 
